@@ -214,6 +214,54 @@
     <Compile Include="Migrations\202005280206110_ApplyAnnotationstocustomerName.Designer.cs">
       <DependentUpon>202005280206110_ApplyAnnotationstocustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202005310034372_NameAddedInMembershipTypeClass.cs" />
+    <Compile Include="Migrations\202005310034372_NameAddedInMembershipTypeClass.Designer.cs">
+      <DependentUpon>202005310034372_NameAddedInMembershipTypeClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005310036556_UpdateMembershipTableWithDiscountsNames.cs" />
+    <Compile Include="Migrations\202005310036556_UpdateMembershipTableWithDiscountsNames.Designer.cs">
+      <DependentUpon>202005310036556_UpdateMembershipTableWithDiscountsNames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005310041033_AddBirthDatePropertiesToCustomerClass.cs" />
+    <Compile Include="Migrations\202005310041033_AddBirthDatePropertiesToCustomerClass.Designer.cs">
+      <DependentUpon>202005310041033_AddBirthDatePropertiesToCustomerClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005310041523_updateCustomersTableWithDatetimeBirthDateData.cs" />
+    <Compile Include="Migrations\202005310041523_updateCustomersTableWithDatetimeBirthDateData.Designer.cs">
+      <DependentUpon>202005310041523_updateCustomersTableWithDatetimeBirthDateData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005310046469_updateCustomersTableWithDatetimeBirthDateData1.cs" />
+    <Compile Include="Migrations\202005310046469_updateCustomersTableWithDatetimeBirthDateData1.Designer.cs">
+      <DependentUpon>202005310046469_updateCustomersTableWithDatetimeBirthDateData1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005310048068_Birthdatenamechanged.cs" />
+    <Compile Include="Migrations\202005310048068_Birthdatenamechanged.Designer.cs">
+      <DependentUpon>202005310048068_Birthdatenamechanged.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005310048334_Birthdatenamechanged1.cs" />
+    <Compile Include="Migrations\202005310048334_Birthdatenamechanged1.Designer.cs">
+      <DependentUpon>202005310048334_Birthdatenamechanged1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005310050084_BirtgdateColumndeleted.cs" />
+    <Compile Include="Migrations\202005310050084_BirtgdateColumndeleted.Designer.cs">
+      <DependentUpon>202005310050084_BirtgdateColumndeleted.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005310050495_birthdateaddedagain.cs" />
+    <Compile Include="Migrations\202005310050495_birthdateaddedagain.Designer.cs">
+      <DependentUpon>202005310050495_birthdateaddedagain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005310058081_birthdateaddedagain2.cs" />
+    <Compile Include="Migrations\202005310058081_birthdateaddedagain2.Designer.cs">
+      <DependentUpon>202005310058081_birthdateaddedagain2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005310101315_RequiredAddedToNameInMembershipTypeClass.cs" />
+    <Compile Include="Migrations\202005310101315_RequiredAddedToNameInMembershipTypeClass.Designer.cs">
+      <DependentUpon>202005310101315_RequiredAddedToNameInMembershipTypeClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005310106173_AddBirthdateToJohnSmith.cs" />
+    <Compile Include="Migrations\202005310106173_AddBirthdateToJohnSmith.Designer.cs">
+      <DependentUpon>202005310106173_AddBirthdateToJohnSmith.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -340,6 +388,42 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202005280206110_ApplyAnnotationstocustomerName.resx">
       <DependentUpon>202005280206110_ApplyAnnotationstocustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005310034372_NameAddedInMembershipTypeClass.resx">
+      <DependentUpon>202005310034372_NameAddedInMembershipTypeClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005310036556_UpdateMembershipTableWithDiscountsNames.resx">
+      <DependentUpon>202005310036556_UpdateMembershipTableWithDiscountsNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005310041033_AddBirthDatePropertiesToCustomerClass.resx">
+      <DependentUpon>202005310041033_AddBirthDatePropertiesToCustomerClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005310041523_updateCustomersTableWithDatetimeBirthDateData.resx">
+      <DependentUpon>202005310041523_updateCustomersTableWithDatetimeBirthDateData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005310046469_updateCustomersTableWithDatetimeBirthDateData1.resx">
+      <DependentUpon>202005310046469_updateCustomersTableWithDatetimeBirthDateData1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005310048068_Birthdatenamechanged.resx">
+      <DependentUpon>202005310048068_Birthdatenamechanged.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005310048334_Birthdatenamechanged1.resx">
+      <DependentUpon>202005310048334_Birthdatenamechanged1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005310050084_BirtgdateColumndeleted.resx">
+      <DependentUpon>202005310050084_BirtgdateColumndeleted.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005310050495_birthdateaddedagain.resx">
+      <DependentUpon>202005310050495_birthdateaddedagain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005310058081_birthdateaddedagain2.resx">
+      <DependentUpon>202005310058081_birthdateaddedagain2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005310101315_RequiredAddedToNameInMembershipTypeClass.resx">
+      <DependentUpon>202005310101315_RequiredAddedToNameInMembershipTypeClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005310106173_AddBirthdateToJohnSmith.resx">
+      <DependentUpon>202005310106173_AddBirthdateToJohnSmith.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
