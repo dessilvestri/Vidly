@@ -262,9 +262,34 @@
     <Compile Include="Migrations\202005310106173_AddBirthdateToJohnSmith.Designer.cs">
       <DependentUpon>202005310106173_AddBirthdateToJohnSmith.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202005310120294_newClassGenre.cs" />
+    <Compile Include="Migrations\202005310120294_newClassGenre.Designer.cs">
+      <DependentUpon>202005310120294_newClassGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005310124099_newClassGenre1.cs" />
+    <Compile Include="Migrations\202005310124099_newClassGenre1.Designer.cs">
+      <DependentUpon>202005310124099_newClassGenre1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005310131108_ClassGenreAddedAndClassMovieModified.cs" />
+    <Compile Include="Migrations\202005310131108_ClassGenreAddedAndClassMovieModified.Designer.cs">
+      <DependentUpon>202005310131108_ClassGenreAddedAndClassMovieModified.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005310132472_deleteGenre_IdName.cs" />
+    <Compile Include="Migrations\202005310132472_deleteGenre_IdName.Designer.cs">
+      <DependentUpon>202005310132472_deleteGenre_IdName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005310144044_GenresDefinition.cs" />
+    <Compile Include="Migrations\202005310144044_GenresDefinition.Designer.cs">
+      <DependentUpon>202005310144044_GenresDefinition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005310145307_GenresDefinition1.cs" />
+    <Compile Include="Migrations\202005310145307_GenresDefinition1.Designer.cs">
+      <DependentUpon>202005310145307_GenresDefinition1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -335,6 +360,7 @@
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
     <Content Include="Views\Shared\_NavBar.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -424,6 +450,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202005310106173_AddBirthdateToJohnSmith.resx">
       <DependentUpon>202005310106173_AddBirthdateToJohnSmith.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005310120294_newClassGenre.resx">
+      <DependentUpon>202005310120294_newClassGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005310124099_newClassGenre1.resx">
+      <DependentUpon>202005310124099_newClassGenre1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005310131108_ClassGenreAddedAndClassMovieModified.resx">
+      <DependentUpon>202005310131108_ClassGenreAddedAndClassMovieModified.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005310132472_deleteGenre_IdName.resx">
+      <DependentUpon>202005310132472_deleteGenre_IdName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005310144044_GenresDefinition.resx">
+      <DependentUpon>202005310144044_GenresDefinition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005310145307_GenresDefinition1.resx">
+      <DependentUpon>202005310145307_GenresDefinition1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
