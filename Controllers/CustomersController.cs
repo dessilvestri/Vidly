@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System.Data.Entity;
 using System.Linq;
 using System.Web.Mvc;
 using Vidly.Models;
-using System.Data.Entity;
+using Vidly.ViewModels;
 
 namespace Vidly.Controllers
 {
@@ -19,6 +19,11 @@ namespace Vidly.Controllers
         {
             _context.Dispose();  
         }
+
+        public ActionResult New() 
+        {
+            return View();
+        } 
         public ViewResult Index()
         {
             var customers = _context.Customers.Include(c=> c.MembershipType).ToList();
