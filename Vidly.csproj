@@ -286,6 +286,58 @@
     <Compile Include="Migrations\202005310145307_GenresDefinition1.Designer.cs">
       <DependentUpon>202005310145307_GenresDefinition1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202006010004319_newbegining.cs" />
+    <Compile Include="Migrations\202006010004319_newbegining.Designer.cs">
+      <DependentUpon>202006010004319_newbegining.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006010025005_newbegining1.cs" />
+    <Compile Include="Migrations\202006010025005_newbegining1.Designer.cs">
+      <DependentUpon>202006010025005_newbegining1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006010026209_newbegining2.cs" />
+    <Compile Include="Migrations\202006010026209_newbegining2.Designer.cs">
+      <DependentUpon>202006010026209_newbegining2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006010030166_newbegining3.cs" />
+    <Compile Include="Migrations\202006010030166_newbegining3.Designer.cs">
+      <DependentUpon>202006010030166_newbegining3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006010034318_newbegining4.cs" />
+    <Compile Include="Migrations\202006010034318_newbegining4.Designer.cs">
+      <DependentUpon>202006010034318_newbegining4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006010037226_newbegining5.cs" />
+    <Compile Include="Migrations\202006010037226_newbegining5.Designer.cs">
+      <DependentUpon>202006010037226_newbegining5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006010041200_newbegining6.cs" />
+    <Compile Include="Migrations\202006010041200_newbegining6.Designer.cs">
+      <DependentUpon>202006010041200_newbegining6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006010047096_new.cs" />
+    <Compile Include="Migrations\202006010047096_new.Designer.cs">
+      <DependentUpon>202006010047096_new.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006010048002_new2.cs" />
+    <Compile Include="Migrations\202006010048002_new2.Designer.cs">
+      <DependentUpon>202006010048002_new2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006010110396_new21.cs" />
+    <Compile Include="Migrations\202006010110396_new21.Designer.cs">
+      <DependentUpon>202006010110396_new21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006020315435_new211.cs" />
+    <Compile Include="Migrations\202006020315435_new211.Designer.cs">
+      <DependentUpon>202006020315435_new211.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006020323538_new212.cs" />
+    <Compile Include="Migrations\202006020323538_new212.Designer.cs">
+      <DependentUpon>202006020323538_new212.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006020328415_AddingGenreFKInMovieClass.cs" />
+    <Compile Include="Migrations\202006020328415_AddingGenreFKInMovieClass.Designer.cs">
+      <DependentUpon>202006020328415_AddingGenreFKInMovieClass.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -470,6 +522,45 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202005310145307_GenresDefinition1.resx">
       <DependentUpon>202005310145307_GenresDefinition1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006010004319_newbegining.resx">
+      <DependentUpon>202006010004319_newbegining.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006010025005_newbegining1.resx">
+      <DependentUpon>202006010025005_newbegining1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006010026209_newbegining2.resx">
+      <DependentUpon>202006010026209_newbegining2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006010030166_newbegining3.resx">
+      <DependentUpon>202006010030166_newbegining3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006010034318_newbegining4.resx">
+      <DependentUpon>202006010034318_newbegining4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006010037226_newbegining5.resx">
+      <DependentUpon>202006010037226_newbegining5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006010041200_newbegining6.resx">
+      <DependentUpon>202006010041200_newbegining6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006010047096_new.resx">
+      <DependentUpon>202006010047096_new.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006010048002_new2.resx">
+      <DependentUpon>202006010048002_new2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006010110396_new21.resx">
+      <DependentUpon>202006010110396_new21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006020315435_new211.resx">
+      <DependentUpon>202006020315435_new211.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006020323538_new212.resx">
+      <DependentUpon>202006020323538_new212.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006020328415_AddingGenreFKInMovieClass.resx">
+      <DependentUpon>202006020328415_AddingGenreFKInMovieClass.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
